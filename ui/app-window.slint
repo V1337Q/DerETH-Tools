@@ -11,7 +11,7 @@ export component AppWindow inherits Window {
             text: "Partial Private Key:";
         }
         LineEdit {
-            text: root.partial_key; // One-way binding
+            text: root.partial_key; 
             placeholder-text: "Enter partial private key (63 characters)";
             edited => {
                 root.partial_key = self.text;
@@ -22,7 +22,7 @@ export component AppWindow inherits Window {
             text: "Known Ethereum Address:";
         }
         LineEdit {
-            text: root.known_address; // One-way binding
+            text: root.known_address; 
             placeholder-text: "Enter known Ethereum address";
             edited => {
                 root.known_address = self.text;
@@ -32,7 +32,6 @@ export component AppWindow inherits Window {
         Button {
             text: "Brute Force";
             clicked => {
-                // Debugging: Print the values before calling the callback
                 debug("Partial key: " + root.partial_key);
                 debug("Known address: " + root.known_address);
                 root.brute-force-private-key(root.partial_key, root.known_address);
