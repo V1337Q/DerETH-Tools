@@ -1,0 +1,46 @@
+import { Button, VerticalBox, LineEdit } from "std-widgets.slint";
+
+export component AppWindow inherits Window {
+    in-out property <string> partial_key: "";
+    in-out property <string> known_address: "";
+    in-out property <string> result: "";
+    callback brute-force-private-key(string, string);
+
+    VerticalBox {
+        Text {
+            text: "Partial Private Key:";
+        }
+        LineEdit {
+            text: root.partial_key; // One-way binding
+            placeholder-text: "Enter partial private key (63 characters)";
+            edited => {
+                root.partial_key = self.text;
+            }
+        }
+
+        Text {
+            text: "Known Ethereum Address:";
+        }
+        LineEdit {
+            text: root.known_address; // One-way binding
+            placeholder-text: "Enter known Ethereum address";
+            edited => {
+                root.known_address = self.text;
+            }
+        }
+
+        Button {
+            text: "Brute Force";
+            clicked => {
+                // Debugging: Print the values before calling the callback
+                debug("Partial key: " + root.partial_key);
+                debug("Known address: " + root.known_address);
+                root.brute-force-private-key(root.partial_key, root.known_address);
+            }
+        }
+
+        Text {
+            text: "Result: \{root.result}";
+        }
+    }
+}
