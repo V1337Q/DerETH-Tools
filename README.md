@@ -1,5 +1,11 @@
 <h1 align="center">DerETH</h1>
 
+<p align="center">
+  <a href="github.com/V1337Q/DerETH-Tools">
+    <img alt="Solana" src="https://i.imgur.com/wN6yeel.png" width="250" />
+  </a>
+</p>
+
 <div align="center">
 	<a href="https://www.rust-lang.org/tools/install">Rust</a>
   <span> • </span>
