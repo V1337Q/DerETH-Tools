@@ -15,9 +15,7 @@
 
 # Preview
 
-
-![Alt text](./images/Preview1.png)
-
+<!-- ![Alt text](./images/Preview1.png) -->
 
 A tools for deriving an Ethereum address from a private key and perform a brute-force to find a missing character in a partial private key that matches a Public Ethereum address.
 
