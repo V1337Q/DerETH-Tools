@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="github.com/V1337Q/DerETH-Tools">
-    <img alt="Solana" src="https://i.imgur.com/wN6yeel.png" width="250" />
+    <!-- <img alt="Solana" src="https://i.imgur.com/wN6yeel.png" width="250" /> -->
   </a>
 </p>
 
