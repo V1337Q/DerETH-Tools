@@ -1,4 +1,4 @@
-<h1 align="center">DerETH</h1>
+<h1 align="center">🔧DerETH</h1>
 
 <p align="center">
   <a href="github.com/V1337Q/DerETH-Tools">
