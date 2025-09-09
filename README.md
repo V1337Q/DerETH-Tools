@@ -6,6 +6,21 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/V1337Q/DerETH-Tools/stargazers">
+    <img
+      alt="Stargazers"
+      src="https://img.shields.io/github/stars/V1337Q/DerETH-Tools?style=for-the-badge&logo=starship&color=78dba9&logoColor=b6beca&labelColor=1a1e24"
+    >
+  </a>
+  <a href="https://github.com/V1337Q/DerETH-Tools/issues">
+    <img
+      alt="Issues"
+      src="https://img.shields.io/github/issues/V1337Q/DerETH-Tools?style=for-the-badge&logo=gitbook&color=70a5eb&logoColor=b6beca&labelColor=1a1e24"
+    >
+  </a>
+</p>
+
 <div align="center">
 	<a href="https://www.rust-lang.org/tools/install">Rust</a>
   <span> • </span>
