@@ -39,12 +39,12 @@ A tools for deriving an Ethereum address from a private key and perform a brute-
 1. cargo
 2. Rustc
 3. X11 Libraries
-```
+```bash
 sudo apt update
 sudo apt install libx11-dev libxcb1-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libgl1-mesa-dev
 ``` 
 4. libxkbcommon-x11
-```
+```bash
 sudo apt update
 sudo apt install libxkbcommon-x11-0
 ```
@@ -54,19 +54,19 @@ sudo apt install libxkbcommon-x11-0
 1. Install Rust by following its [getting-started guide](https://www.rust-lang.org/learn/get-started).
    Once this is done, you should have the `rustc` compiler and the `cargo` build system installed in your `PATH`.
 2. Clone the repo:
-    ``` 
+    ```bash
     git clone https://github.com/V1337Q/DerETH-Tools.git
     ``` 
 3. cd to the repo
-    ``` 
+    ```bash
     cd DerETH-Tools
     ```
 4. Build the depedencies with `cargo`:
-    ```
+    ```bash
     cargo build
     ```
 5. Run the application binary:
-    ```
+    ```bash
     cargo run
     ```
 *NOTES*: This is the GUI version of the previous repository that i've created (github.com/V1330Q/dereth) If you're more comfortable with the CLI and didn't need the GUI, use that one instead.
