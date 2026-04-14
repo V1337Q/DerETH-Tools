@@ -57,7 +57,7 @@ sudo apt install libxkbcommon-x11-0
     ```bash
     git clone https://github.com/V1337Q/DerETH-Tools.git
     ``` 
-3. cd to the repo
+3. Change Directory to the repo
     ```bash
     cd DerETH-Tools
     ```
